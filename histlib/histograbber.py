@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import os
 import json
 script_dir = os.path.abspath(__file__)
-data_dir = script_dir.replace('histlib/histograbber.py', 'data') # dataset folderpath getter
+data_dir = script_dir.replace('histlib/histograbber.py', 'data/stockdata') # dataset folderpath getter
 
 
 
