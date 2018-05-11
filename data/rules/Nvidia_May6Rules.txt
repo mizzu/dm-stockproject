@@ -1,0 +1,20 @@
+-------------------------
+May6
+-------------------------
+Supp Conf  Rule
+ 0.2  1.0  GPU -> NVIDIA
+ 0.2  1.0  NVIDIA -> GPU
+ 0.2  1.0  Intel -> Apple
+ 0.2  1.0  Apple -> Intel
+ 0.2  1.0  Intel -> Apple stock
+ 0.2  1.0  Intel Apple -> stock
+ 0.2  1.0  Intel stock -> Apple
+ 0.2  1.0  Apple -> Intel stock
+ 0.2  1.0  Apple stock -> Intel
+ 0.2  0.5  stock -> Intel Apple
+ 0.2  1.0  Intel -> stock
+ 0.2  0.5  stock -> Intel
+ 0.2  1.0  Ethereum -> AMD
+ 0.2  1.0  AMD -> Ethereum
+ 0.2  1.0  Apple -> stock
+ 0.2  0.5  stock -> Apple

@@ -1,0 +1,6 @@
+-------------------------
+May5
+-------------------------
+Supp Conf  Rule
+ 0.2  0.3  Amazon -> stock
+ 0.2  0.6  stock -> Amazon

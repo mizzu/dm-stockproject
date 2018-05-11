@@ -1,0 +1,8 @@
+-------------------------
+April28
+-------------------------
+Supp Conf  Rule
+ 0.1  1.0  (INTC) -> Intel
+ 0.1  0.5  Intel -> (INTC)
+ 0.1  1.0  AMD -> stock
+ 0.1  0.2  stock -> AMD

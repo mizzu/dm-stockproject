@@ -1,0 +1,8 @@
+-------------------------
+April29
+-------------------------
+Supp Conf  Rule
+ 0.3  0.6  Amazon -> stock
+ 0.3  0.4  stock -> Amazon
+ 0.1  1.0  bull -> stock
+ 0.1  0.2  stock -> bull

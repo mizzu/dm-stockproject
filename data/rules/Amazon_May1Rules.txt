@@ -1,0 +1,8 @@
+-------------------------
+May1
+-------------------------
+Supp Conf  Rule
+ 0.1  0.6  Apple -> Amazon
+ 0.1  0.2  Amazon -> Apple
+ 0.4  0.5  Amazon -> stock
+ 0.4  0.6  stock -> Amazon

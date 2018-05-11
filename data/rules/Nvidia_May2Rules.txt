@@ -1,0 +1,8 @@
+-------------------------
+May2
+-------------------------
+Supp Conf  Rule
+ 0.1  1.0  Cryptocurrency -> NVIDIA
+ 0.1  1.0  NVIDIA -> Cryptocurrency
+ 0.2  1.0  Ethereum -> AMD
+ 0.2  0.5  AMD -> Ethereum

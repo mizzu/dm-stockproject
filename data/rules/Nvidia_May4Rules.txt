@@ -1,0 +1,8 @@
+-------------------------
+May4
+-------------------------
+Supp Conf  Rule
+ 0.2  0.5  Intel -> stock
+ 0.2  0.5  stock -> Intel
+ 0.2  1.0  up -> stock
+ 0.2  0.5  stock -> up

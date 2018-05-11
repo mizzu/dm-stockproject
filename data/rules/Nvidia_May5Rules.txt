@@ -1,0 +1,20 @@
+-------------------------
+May5
+-------------------------
+Supp Conf  Rule
+ 0.1  0.3  Intel -> Tesla
+ 0.1  1.0  Tesla -> Intel
+ 0.2  0.7  Intel -> stock
+ 0.2  0.4  stock -> Intel
+ 0.2  1.0  NVIDIA -> up
+ 0.2  0.7  up -> NVIDIA
+ 0.2  1.0  NVIDIA -> up stock
+ 0.2  1.0  NVIDIA up -> stock
+ 0.2  1.0  NVIDIA stock -> up
+ 0.2  0.7  up -> NVIDIA stock
+ 0.2  0.7  up stock -> NVIDIA
+ 0.2  0.4  stock -> NVIDIA up
+ 0.2  1.0  NVIDIA -> stock
+ 0.2  0.4  stock -> NVIDIA
+ 0.4  1.0  up -> stock
+ 0.4  0.6  stock -> up

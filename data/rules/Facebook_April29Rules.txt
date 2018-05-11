@@ -1,0 +1,16 @@
+-------------------------
+April29
+-------------------------
+Supp Conf  Rule
+ 0.1  1.0  bull -> stock
+ 0.1  0.1  stock -> bull
+ 0.1  1.0  bull -> stock bear
+ 0.1  1.0  bull stock -> bear
+ 0.1  1.0  bull bear -> stock
+ 0.1  0.1  stock -> bull bear
+ 0.1  1.0  stock bear -> bull
+ 0.1  1.0  bear -> bull stock
+ 0.1  1.0  bull -> bear
+ 0.1  1.0  bear -> bull
+ 0.1  0.1  stock -> bear
+ 0.1  1.0  bear -> stock

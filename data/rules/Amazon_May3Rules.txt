@@ -1,0 +1,6 @@
+-------------------------
+May3
+-------------------------
+Supp Conf  Rule
+ 0.2  1.0  Spotify -> Apple
+ 0.2  1.0  Apple -> Spotify

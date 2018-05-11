@@ -1,0 +1,6 @@
+-------------------------
+April30
+-------------------------
+Supp Conf  Rule
+ 0.1  1.0  WhatsApp -> stock
+ 0.1  0.2  stock -> WhatsApp

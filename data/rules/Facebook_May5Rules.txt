@@ -1,0 +1,16 @@
+-------------------------
+May5
+-------------------------
+Supp Conf  Rule
+ 0.1  0.9  Apple -> down
+ 0.1  0.9  down -> Apple
+ 0.1  0.9  Apple -> down stock
+ 0.1  1.0  Apple down -> stock
+ 0.1  1.0  Apple stock -> down
+ 0.1  0.9  down -> Apple stock
+ 0.1  0.9  down stock -> Apple
+ 0.1  0.2  stock -> Apple down
+ 0.1  0.9  Apple -> stock
+ 0.1  0.2  stock -> Apple
+ 0.2  1.0  down -> stock
+ 0.2  0.2  stock -> down
