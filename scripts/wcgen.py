@@ -13,7 +13,7 @@ save_dir = script_dir.replace('scripts/wcgen.py', 'data/wcimgs/') # dataset fold
 
 #add filter list
 dates = ["April27", "April28", "April29", "April30", "May1", "May2", "May3", "May4", "May5", "May6"]
-filters = ["https co", "https", "RT"];
+filters = ["httpsco", "https", "rt", "co"];
 
 def  stats(stock):
 	count = 0
@@ -22,9 +22,9 @@ def  stats(stock):
 		wct = '';
 		for line in f:
 			jdata = json.loads(line)
-			strr = jdata["text"];
+			strr = jdata["text"].encode("utf-8").lower();
 			for fil in filters:
-				strr.replace(fil, "");
+				strr = strr.replace(fil, "");
 			wct += " " + strr;
 		plt.imshow(WordCloud().generate(wct));
 		plt.savefig(save_dir+stock+"/"+stock+"_"+dl+"_wc.png");
