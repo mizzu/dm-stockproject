@@ -32,7 +32,7 @@ def  scores(stock):
 			if(sentiment(jdata['text'])[0] > 0):
 				c.write(("{1," + "\"" + jdata['text'].encode('utf-8') + "\"" +"}\n"))
 				p_sent +=1;
-			if(sentiment(jdata["text"])[0] <= 0):
+			if(sentiment(jdata["text"])[0] < 0):
 				c.write(("{0," + "\"" + jdata['text'].encode('utf-8') + "\"" +"}\n"))
 				n_sent +=1;
 		tp += p_sent;
