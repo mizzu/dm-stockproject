@@ -13,7 +13,7 @@ save_dir = script_dir.replace('scripts/wcgen.py', 'data/wcimgs/') # dataset fold
 
 #add filter list
 dates = ["April27", "April28", "April29", "April30", "May1", "May2", "May3", "May4", "May5", "May6"]
-filters = ["httpsco", "https", "rt", "co"];
+filters = ["httpsco", "https", "rt"];
 
 def  stats(stock):
 	count = 0
